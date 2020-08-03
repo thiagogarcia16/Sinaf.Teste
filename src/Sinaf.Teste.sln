@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{83157652-36DF-4484-BBC4-51B58A280DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C8A223E8-D127-4FE3-B80F-3F7543C5C84D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{2F983A04-A16B-4253-94C7-7C15D8650ED3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sinaf.Teste.Domain", "Sinaf.Teste.Domain\Sinaf.Teste.Domain.csproj", "{42FA3B32-6F44-47A9-B7A6-F1112D4BD58C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sinaf.Teste.Data", "Sinaf.Teste.Data\Sinaf.Teste.Data.csproj", "{9A9D7C21-0877-4CE8-866A-E45EE3D01C3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sinaf.Teste.WebAPI", "Sinaf.Teste.WebAPI\Sinaf.Teste.WebAPI.csproj", "{DF327367-5F16-4F10-A3D1-1D44812310F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42FA3B32-6F44-47A9-B7A6-F1112D4BD58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FA3B32-6F44-47A9-B7A6-F1112D4BD58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FA3B32-6F44-47A9-B7A6-F1112D4BD58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FA3B32-6F44-47A9-B7A6-F1112D4BD58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9D7C21-0877-4CE8-866A-E45EE3D01C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9D7C21-0877-4CE8-866A-E45EE3D01C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9D7C21-0877-4CE8-866A-E45EE3D01C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9D7C21-0877-4CE8-866A-E45EE3D01C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF327367-5F16-4F10-A3D1-1D44812310F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF327367-5F16-4F10-A3D1-1D44812310F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF327367-5F16-4F10-A3D1-1D44812310F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF327367-5F16-4F10-A3D1-1D44812310F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42FA3B32-6F44-47A9-B7A6-F1112D4BD58C} = {C8A223E8-D127-4FE3-B80F-3F7543C5C84D}
+		{9A9D7C21-0877-4CE8-866A-E45EE3D01C3A} = {2F983A04-A16B-4253-94C7-7C15D8650ED3}
+		{DF327367-5F16-4F10-A3D1-1D44812310F3} = {83157652-36DF-4484-BBC4-51B58A280DAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD8D3ADE-5CDE-4FBE-9DDC-44E61667CE24}
+	EndGlobalSection
+EndGlobal
